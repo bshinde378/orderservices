@@ -1,0 +1,15 @@
+package com.prati.util;
+
+public class OrderNotFoundException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public OrderNotFoundException(String msg) {
+		super(msg);
+		System.out.println("Order is not found.......");
+	}
+
+}
